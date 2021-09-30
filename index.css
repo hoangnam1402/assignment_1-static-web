@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
   }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background: #dcdcdc;
+  }
   .filter{
       display: flex;
       margin: 10px;
