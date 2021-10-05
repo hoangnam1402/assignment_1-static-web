@@ -144,6 +144,12 @@
     opacity: 1;
     visibility: visible;
   }
+  .card.hide {
+    display: none;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
 
   .center {
     text-align: center;
