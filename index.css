@@ -56,33 +56,33 @@
   .card:hover .imgBox img {
     transform: scale(2);
   }
-  .listPro .card .content {
+  .card .content {
     padding: 10px;
   }
-  .listPro .card .content .productName h3 {
+  .card .content .productName h3 {
     font-size: 18px;
     font-weight: 500;
     color: #333;
     margin: 5px 0;
   }
-  .listPro .card .content .price_rating {
+  .card .content .price_rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .listPro .card .content .price_rating h2 {
+  .card .content .price_rating h2 {
     font-size: 20px;
     color: #ff2020;
     font-weight: 500;
   }
-  .listPro .card .content .price_rating .fa {
+  .card .content .price_rating .fa {
     color: #ffd513;
     cursor: pointer;
   }
-  .listPro .card .content .price_rating .fa.grey {
+  .card .content .price_rating .fa.grey {
     color: #ccc;
   }
-  .listPro .card:hover .action li {
+  .card:hover .action li {
     transform: translateX(0px);
   }
   .action {
