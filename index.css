@@ -95,7 +95,7 @@
     list-style: none;
     width: 40px;
     height: 40px;
-    background: #fff;
+    background: rgb(216, 216, 216);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@
     transform: translateY(-50%) translateX(0px);
     white-space: nowrap;
     padding: 4px 6px;
-    background: rgb(170, 170, 170);
+    background: rgb(255, 255, 255);
     color: #333;
     font-weight: 500;
     font-size: 12px;
@@ -129,7 +129,7 @@
   }
   .action li:hover {
     background: #ff2020;
-    color: rgb(170, 170, 170);
+    color: rgb(255, 255, 255);
   }
   .action li:hover span {
     opacity: 1;
