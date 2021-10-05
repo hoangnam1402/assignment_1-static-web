@@ -144,7 +144,10 @@
     opacity: 1;
     visibility: visible;
   }
-  
+  .card.hide {
+    display: none;
+  }
+
   .center {
     text-align: center;
     background: #dcdcdc;
