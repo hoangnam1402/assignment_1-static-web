@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Static webpage</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
     </head>
 
@@ -20,8 +19,13 @@
 
         <div class="container">
             <div class="card" data-item="+">
-                <div class="img">
+                <div class="imgBox">
                     <img src="images/logo.PNG" />
+                    <ul class="action">
+                        <li><i class="fa fa-heart" aria-hidden="true"></i><span>Add to Wishlist</span></li>
+                        <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Add to Cart</span></li>
+                        <li><i class="fa fa-eye" aria-hidden="true"></i><span>Add to Details</span></li>
+                    </ul>
                 </div>
                 <div class="content">
                     <div class="productName">
@@ -32,6 +36,8 @@
                         <div class="rating">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa grey fa-star" aria-hidden="true"></i>
                         </div>
                     </div>
@@ -40,7 +46,6 @@
         </div>
 
         <script src="index.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         
     </body>
 </html>
