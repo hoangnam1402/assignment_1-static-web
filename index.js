@@ -20,18 +20,13 @@ for (let i = 0; i < buttonsPagination.length; i++) {
             buttonsPagination[now-1].classList.add("active");
         })
     }
-    if(i = 7 && now < 6){
-        buttonsPagination[i].addEventListener("click", function () {
+    else
+        {buttonsPagination[i].addEventListener("click", function () {
             for (let j = 0; j < buttonsPagination.length; j++) {
                 buttonsPagination[j].classList.remove("active");
             }
-            buttonsPagination[now+1].classList.add("active");
+            this.classList.add("active");
+            now =  i;
         })
     }
-    buttonsPagination[i].addEventListener("click", function () {
-        for (let j = 0; j < buttonsPagination.length; j++) {
-            buttonsPagination[j].classList.remove("active");
-        }
-        this.classList.add("active");
-    })
 }
