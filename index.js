@@ -10,7 +10,24 @@ for(let i=0;i<list.length;i++) {
 }
 const buttonsPagination = document.querySelectorAll(".pagination > button");
 
-for (let i = 1; i < buttonsPagination.length-1; i++) {
+let now =  1;
+for (let i = 0; i < buttonsPagination.length; i++) {
+    if(i = 0 && now > 1){
+        buttonsPagination[i].addEventListener("click", function () {
+            for (let j = 0; j < buttonsPagination.length; j++) {
+                buttonsPagination[j].classList.remove("active");
+            }
+            buttonsPagination[now-1].classList.add("active");
+        })
+    }
+    if(i = 7 && now < 6){
+        buttonsPagination[i].addEventListener("click", function () {
+            for (let j = 0; j < buttonsPagination.length; j++) {
+                buttonsPagination[j].classList.remove("active");
+            }
+            buttonsPagination[now+1].classList.add("active");
+        })
+    }
     buttonsPagination[i].addEventListener("click", function () {
         for (let j = 0; j < buttonsPagination.length; j++) {
             buttonsPagination[j].classList.remove("active");
